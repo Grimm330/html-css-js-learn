@@ -1,0 +1,27 @@
+#m3{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px; 
+}
+#m3 h2{
+    color: #391586;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#m3 p{
+    color: #a11b1b;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.header{
+    background-color: #0a683c;
+    color: #abee19;
+    padding: 20px;
+    text-align: center;
+}
+.para{
+    background-color: #ffff00;
+    color: #000000;
+    padding: 20px;
+    margin: 20px;
+}
