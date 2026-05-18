@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'CustomFont';
+    
+    src: url('Fints/Matcha\ Cih.ttf');
+    font-family: customfont;
+}
+
+@font-face { 
+src: url('Fints/Aurelia\ Sunlight\ Free.ttf');
+    font-family:"test"
+}
+
 #m3{
     background-color: #f0f0f0;
     padding: 20px;
@@ -18,10 +30,13 @@
     color: #abee19;
     padding: 20px;
     text-align: center;
+    font-family: customfont;
+    
 }
 .para{
     background-color: #ffff00;
     color: #000000;
     padding: 20px;
     margin: 20px;
+    font-family: test;
 }
