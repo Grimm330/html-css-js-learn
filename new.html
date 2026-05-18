@@ -9,7 +9,7 @@
 </header>
 <!--form   -->
 
-<form style="background-color: blanchedalmond; padding: 20px;" action="index.php" method="post" target="_blank">
+<form enctype="multipart/form-data" style="background-color: blanchedalmond; padding: 20px;" action="index.php" method="post" target="_blank">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name"><br><br>
     <label for="email">Email:</label>
@@ -41,6 +41,10 @@
 <input type="checkbox" id="subscription" name ="subscription" value="no">
 <label for="subscription">later </label>        
 <br><br>
+<lable for="color">Favorite Color:</label>
+<input type="color" id="color" name="color" value="#ff0000"><br><br>
+<label for="file">Upload File:</label>
+<input type="file" id="file" name="file" accept="image/png,image/jpg"><br><br>
 
     <input type="submit" value="save">
     <input type="reset" value="Reset">
