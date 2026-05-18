@@ -26,14 +26,21 @@ src: url('Fints/Aurelia\ Sunlight\ Free.ttf');
     line-height: 1.5;
 }
 .header{
-    background-color: #0a683c;
-    color: #abee19;
+    border-radius: 1em;
+    border-style: dashed;
+    border-color: #000000;
+    background-color: #beb7b7;
+    color: #000000;
     padding: 20px;
     text-align: center;
     font-family: customfont;
     
 }
 .para{
+    
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 1em;
     background-color: #ffff00;
     color: #000000;
     padding: 20px;
