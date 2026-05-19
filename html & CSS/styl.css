@@ -64,3 +64,19 @@ src: url('Fints/Aurelia\ Sunlight\ Free.ttf');
         float: left;
         margin-right: 20px;
     }
+    #btn{
+        background-color: #ff0000;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #btn:hover{
+        background-color: #ebe2e2;
+        color: #000000;
+    } 
+    .para::selection{
+        background-color: #ff0000;
+        color: #ffffff;
+    }  
