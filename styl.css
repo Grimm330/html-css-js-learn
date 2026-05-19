@@ -11,6 +11,7 @@ src: url('Fints/Aurelia\ Sunlight\ Free.ttf');
 }
 
 #m3{
+    text-shadow: 2px 1px #c40d0d,-3px 1px #c40d0d, 2px -1px #282424;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 5px; 
@@ -26,6 +27,7 @@ src: url('Fints/Aurelia\ Sunlight\ Free.ttf');
     line-height: 1.5;
 }
 .header{
+    text-shadow: 2px 2px #000000;
     border-radius: 1em;
     border-style: dashed;
     border-color: #000000;
@@ -47,3 +49,18 @@ src: url('Fints/Aurelia\ Sunlight\ Free.ttf');
     margin: 20px;
     font-family: test;
 }
+#box{
+    border-style: dashed;
+    overflow: auto;
+    width: 800px;
+    height: 200px;
+    background-color: #00ff00;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(159, 5, 5, 0.3);
+    margin-right: 50px;
+}
+    #tree-image{
+        float: left;
+        margin-right: 20px;
+    }
