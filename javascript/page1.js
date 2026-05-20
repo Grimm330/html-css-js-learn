@@ -32,4 +32,14 @@ document.getElementById("myP4").textContent = `The name is: ${userName}`;*/
 document.getElementById("submitBtn").onclick = function() {
     let userName = document.getElementById("username").value;
     document.getElementById("myP4").textContent = `The name is: ${userName}`;}
-    
+
+//type conversion
+let num1 = "10";
+let num2 = 20;
+let sum2 = Number(num1) + Number(num2);
+console.log(`The sum of num1 and num2 is: ${sum2}`);
+
+//const declaration(changing the value pI=939383,willcause error after declaring it as const)
+const PI = 3.14159;
+console.log(`The value of PI is: ${PI}`);
+
