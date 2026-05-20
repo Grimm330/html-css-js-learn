@@ -17,4 +17,5 @@ console.log("The sum of x and y is: " + sum);
 console.log(`The sum of x and y is: ${sum}`);
 console.log(typeof z);
 console.log(typeof name);
-console.log(typeof isStudent);
+console.log(`Name is ${name}, is a student: ${isStudent}`);
+
