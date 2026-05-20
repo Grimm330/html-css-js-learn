@@ -18,4 +18,18 @@ console.log(`The sum of x and y is: ${sum}`);
 console.log(typeof z);
 console.log(typeof name);
 console.log(`Name is ${name}, is a student: ${isStudent}`);
+//show variable in html
+document.getElementById("myP2").textContent = `The value of x is: ${x}`;
+document.getElementById("myP3").textContent = `The name is: ${name}`;
+//user input
 
+//windown prompt input
+/*let userName = window.prompt("Please enter your name:");
+console.log(`User name is: ${userName}`);
+document.getElementById("myP4").textContent = `The name is: ${userName}`;*/
+
+//input field and button
+document.getElementById("submitBtn").onclick = function() {
+    let userName = document.getElementById("username").value;
+    document.getElementById("myP4").textContent = `The name is: ${userName}`;}
+    
