@@ -1,0 +1,12 @@
+#header{
+    color: rgb(140, 183, 31);
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(104, 101, 101);
+    height: 50px;
+    width: 100%;
+    padding: 40px;
+
+}
