@@ -48,3 +48,4 @@ convertBtn.addEventListener("click", function(event) {
 
     result.innerHTML = output;
 });
+//used chatgpt
