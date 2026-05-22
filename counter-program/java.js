@@ -18,3 +18,7 @@ reset.onclick = function () {
     c = 0;
     count.textContent = c;
 }
+
+let name = "John";
+let p = name == "John" ? "Hello, John!" : "Hello, stranger!";
+console.log(p);
