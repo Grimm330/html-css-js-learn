@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    padding: 35px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+h1{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.03);
+    background: linear-gradient(135deg, #0ea5e9, #0284c7);
+}
+
+#result{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+}
